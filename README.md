@@ -43,28 +43,27 @@ This project is open-source and available under the **MIT License**.
 
 ---
 
-<<<<<<< HEAD
+
 ## 📷 Screenshots
 
 Here are some screenshots of the IrisGuard application:
 
-![Screenshot 1](screenshots/image 1.png)
-![Screenshot 2](screenshots/image 2.png)
-![Screenshot 2](screenshots/image 3.png)
+
+![Screenshots](screenshots/image1.png)
+![Screenshots](screenshots/image2.png)
+![Screenshots](screenshots/image3.png)
 
 <!-- Add more screenshots as needed -->
 
 ---
 
-=======
->>>>>>> 185f3370b0e3605d5f259c218075af7e05d54a7a
 ## 🤝 Contributing  
 Want to improve **IrisGuard**? Feel free to contribute by submitting **pull requests** or reporting **issues** on GitHub.  
 
 ---
 
 ## 🔗 Links  
-<<<<<<< HEAD
+
 - **GitHub Repository**: [IrisGuard](https://github.com/malathi-n79/Irisguard)
-=======
+
 
