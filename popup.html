@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EyeGuard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="popup">
+  <div class="header">
+    <div class="logo">
+      <div class="logo-icon">👁️</div>
+      <div class="logo-text">IrisGuard</div>
+    </div>
+    <label class="switch">
+      <input type="checkbox" id="enableToggle" checked>
+      <span class="slider round"></span>
+    </label>
+  </div>
+  
+  <div class="section">
+    <div class="section-title">Next Break</div>
+    <div class="timer-display">
+      <div class="timer" id="nextBreakTimer">20:00</div>
+      <div class="timer-label">minutes remaining</div>
+    </div>
+  </div>
+  
+  <div class="section">
+    <div class="section-title">Stats</div>
+    <div class="stats-grid">
+      <div class="stat">
+        <div class="stat-value" id="screenTimeValue">0:00</div>
+        <div class="stat-label">Screen time</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="colorTempValue">5000K</div>
+        <div class="stat-label">Color temp</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="breaksValue">0</div>
+        <div class="stat-label">Breaks taken</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="section">
+    <div class="section-title">Tips</div>
+    <div class="tip">
+      <div class="tip-icon">💡</div>
+      <div class="tip-text">Follow the 20-20-20 rule: Every 20 minutes, look at something 20 feet away for 20 seconds.</div>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <button id="startBreakNow" class="button primary-button">Take a break now</button>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

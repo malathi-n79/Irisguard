@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EyeGuard - Take a Break</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="notification">
+    <div class="notification-header">
+      <div class="logo">
+        <div class="logo-icon">👁️</div>
+        <div class="logo-text">IrisGuard</div>
+      </div>
+      <button class="close-button" id="closeButton">✕</button>
+    </div>
+    <div class="notification-body">
+      <div class="notification-title">Time for an eye break!</div>
+      <div class="notification-text">
+        You've been looking at the screen for 20 minutes. Take a short break to reduce eye strain.
+      </div>
+      
+      <div class="eye-stats">
+        <div class="stat">
+          <div class="stat-value" id="screenTimeValue">0:00</div>
+          <div class="stat-label">Screen time</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="colorTempValue">5000K</div>
+          <div class="stat-label">Color temp</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="breaksValue">0</div>
+          <div class="stat-label">Breaks taken</div>
+        </div>
+      </div>
+      
+      <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+      
+      <div class="notification-text">
+        <span class="time-icon">⏱️</span> Try the 20-20-20 rule: Look at something 20 feet away for 20 seconds.
+      </div>
+      
+      <div class="break-timer" id="breakTimer">
+        <div class="timer-circle">
+          <svg viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="45" fill="none" stroke-width="5" stroke="rgba(255,255,255,0.1)"/>
+            <circle id="timerCircle" cx="50" cy="50" r="45" fill="none" stroke-width="5" stroke="#6d5acd" 
+                    stroke-dasharray="283" stroke-dashoffset="0" transform="rotate(-90 50 50)"/>
+          </svg>
+          <div class="timer-text" id="timerText">20</div>
+        </div>
+      </div>
+      
+      <div class="action-buttons">
+        <button class="button secondary-button" id="snoozeButton">Snooze 5 min</button>
+        <button class="button primary-button" id="startBreakButton">Start Break</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="notification.js"></script>
+</body>
+</html>
