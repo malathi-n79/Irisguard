@@ -49,9 +49,9 @@ This project is open-source and available under the **MIT License**.
 Here are some screenshots of the IrisGuard application:
 
 
-![Screenshots](images/screenshots/image1.png)
-![Screenshots](images/screenshots/image2.png)
-![Screenshots](images/screenshots/image3.png)
+![Screenshots](images/screenshots/image 1.png)
+![Screenshots](images/screenshots/image 2.png)
+![Screenshots](images/screenshots/image 3.png)
 
 <!-- Add more screenshots as needed -->
 
