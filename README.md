@@ -43,6 +43,7 @@ This project is open-source and available under the **MIT License**.
 
 ---
 
+<<<<<<< HEAD
 ## 📷 Screenshots
 
 Here are some screenshots of the IrisGuard application:
@@ -55,10 +56,15 @@ Here are some screenshots of the IrisGuard application:
 
 ---
 
+=======
+>>>>>>> 185f3370b0e3605d5f259c218075af7e05d54a7a
 ## 🤝 Contributing  
 Want to improve **IrisGuard**? Feel free to contribute by submitting **pull requests** or reporting **issues** on GitHub.  
 
 ---
 
 ## 🔗 Links  
+<<<<<<< HEAD
 - **GitHub Repository**: [IrisGuard](https://github.com/malathi-n79/Irisguard)
+=======
+
